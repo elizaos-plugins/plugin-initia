@@ -1,5 +1,5 @@
 {
-    "name": "@elizaos/plugin-initia",
+    "name": "@elizaos-plugins/plugin-initia",
     "version": "0.1.9",
     "type": "module",
     "main": "dist/index.js",
@@ -27,7 +27,6 @@
     "license": "ISC",
     "description": "",
     "dependencies": {
-        "@elizaos/core": "workspace:*",
         "@elizaos/plugin-trustdb": "workspace:*",
         "@elizaos/plugin-tee": "workspace:*",
         "@initia/initia.js": "0.2.26"
