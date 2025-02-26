@@ -33,5 +33,28 @@
     },
     "devDependencies": {
         "@types/node": "^22.10.1"
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:client:1.0.0",
+        "pluginParameters": {
+            "INITIA_PRIVATE_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Private key for INIT token transactions",
+                "optional": false
+            },
+            "INITIA_NODE_URL": {
+                "type": "string",
+                "minLength": 1,
+                "description": "URL of the Initia node",
+                "optional": false
+            },
+            "INITIA_CHAIN_ID": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Chain ID for the Initia network",
+                "optional": false
+            }
+        }
     }
 }
